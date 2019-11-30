@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 function Card(props) {
   return (
-    <div>
+    <div className="my-style">
 
       <h2>{props.name}</h2>
       <img
