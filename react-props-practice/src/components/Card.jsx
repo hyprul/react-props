@@ -6,7 +6,8 @@ export default function Card(props) {
         <div className="card">
             <div className="top">
                 <h2 className="name">{props.name}</h2>
-                <img className="circle-img"
+                <img
+                    className="circle-img"
                     src={props.imgURL}
                     alt="avatar_img"
                 />
